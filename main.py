@@ -11,7 +11,7 @@ def main():
     merged_df = transformer.join_films_inventory_rental()
     rental_stats = transformer.calculate_rental_stats(merged_df)
 
-    print("\n🎬 Top 10 películas más alquiladas:")
+    print("\n Top 10 películas más alquiladas:")
     print(rental_stats.head(10))
 
     save_to_csv(rental_stats)
