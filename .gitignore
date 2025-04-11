@@ -1,0 +1,24 @@
+Entornos virtuales
+
+.venv/
+venv/
+
+Cachés y archivos temporales de Python
+
+pycache/
+*.py[cod]
+*.pyo
+
+Configuración de editores
+
+.vscode/
+.idea/
+
+Archivos del sistema
+
+.DS_Store
+Thumbs.db
+
+Resultados generados
+
+output/
